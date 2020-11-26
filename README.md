@@ -1,13 +1,17 @@
 # Home
 project website hello
 my name is tech ISSUE XPERT 
+<!DOCTYPE html>
 <html>
 <head>
-<title>Apple company</title></head>
+<title>Ishu Singh</title></head>
 <body>
 <style>
-
-h1{color:grey;
+Body{
+    margin:0;
+    padding: 50px;
+}
+h1{color:black;
   text-align:center;}
 </style>
 <h1> Founder of apple company</h1>
