@@ -4,8 +4,7 @@ my name is tech ISSUE XPERT
 <!DOCTYPE html>
 <html>
 <head>
-<title>Ishu Singh</title></head>
-<body>
+<title>Ishu Singh</title>
 <style>
 Body{
     margin:0;
@@ -14,6 +13,9 @@ Body{
 h1{color:black;
   text-align:center;}
 </style>
+</head>
+<body>
+
 <h1> Founder of apple company</h1>
   <img src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi6gtDZ17biAhUQEnIKHWGZBnkQjRx6BAgBEAU&url=http%3A%2F%2Fwww.hmc.ma%2Fproduct%2Fphone&psig=AOvVaw0ieyL-IcvTRFWyeSUtOO4k&ust=1558873828837230">
    
