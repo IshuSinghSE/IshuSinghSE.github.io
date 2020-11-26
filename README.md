@@ -9,6 +9,7 @@ my name is tech ISSUE XPERT
 Body{
     margin:0;
     padding: 50px;
+    Color:red;
 }
 h1{color:black;
   text-align:center;}
