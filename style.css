@@ -1,0 +1,206 @@
+
+*{text-decoration: none;
+				user-select:none; 
+				text-align: center; 
+				}
+
+
+body{ margin:0;
+      padding :0;
+    background: #ffffff;
+      width :100%;
+      height :100%;
+      font-size:100%;
+      font-family:fantasy;}
+      
+.playstore{width: 25px;
+    position: absolute ;
+    top: 2px;
+    right : 20px;
+    margin: 5px;
+    border: 2px white solid;
+    border-radius:5px;
+    padding : 5px 10px;
+				}
+				
+h5{left: 20px;
+			position :absolute; 
+			top: -10px;
+				}
+				
+.getapp{position: absolute ;
+				left: 20px;
+				top: 25px;
+				font-size : 13px;
+				color: white ;
+				}
+      
+				
+h1 > a{color :white;
+				}
+
+  #header{text-align: center;
+    color :white;                           background:linear-gradient(to right,#3ba16f,#43b87f, #3bd99f);
+				font-style :consoles ;
+				width :100%;
+				height: 50px;
+				position : relative;
+					display:flex;
+				justify-content:center;
+				align-items:center ;
+				font-size :100%;
+				
+				}	
+	.logo{
+								margin : 35px 0 25px 0px;
+								}
+								
+					#login-email > img{
+									position :absolute;
+									height : 20px;
+									color: blue;
+									left: 23%;
+									top: 5px;
+									}
+									
+									hr{width: 250px;
+									height : 1px;
+									position :relative;
+									margin : 29px 0px 0px 50px;
+								background-color :#d6d6d6;
+									border :none ;
+													}
+				.or{
+								position:absolute;
+								top: 205px;
+								left: 150px;
+								background-color:#ffffff;
+								padding :  0px 20px;
+								color :grey ;
+								}
+				
+				#login-email{width :260px;
+				   height :30px;
+				   border-radius:5px ;
+			  background: #2ba4ee;
+			   color :white;
+			   position :relative;
+			   border :none;
+			   margin-top:25px;
+			   padding-left:3em;
+			   font:bold 15px normal ;
+			   font-weight : 600px;
+								
+								}
+
+.input{	position :relative;
+				   height :25px;
+				  min-width :250px;
+				  max-width: 100vw;
+				   border-radius :3px;
+				 border : silver 1px solid;
+				  font-size:15px;
+				  letter-spacing:.5px		;		  
+				background-color:#f6f6f6; 
+				padding: 5px;
+				font-family:fantasy ;
+				font-style:italic;
+				text-align:left;
+				outline :none;
+				}
+				
+#input{margin :25px 0 -35px 0;
+				 line-height :0px;
+				}
+				
+.input:focus{border-bottom:#46d2ff 3px solid;
+transition : 0.2s ease;
+}				
+
+				
+	#email{margin:5px;
+					}			
+					
+#forget-password{
+									position:relative ;
+									left: 75px;
+									margin :0;
+							color:		#17bbff;
+									}
+
+#login{width :260px;
+				   height :1.5em;
+				   border-radius:5px ;
+			  background:#17bbff ;  
+			   color :white;
+			   font-family : consolas;
+			   position :relative;
+			   border :none;
+			   margin:20px 0px 15px 0px ;
+			   font:normal 20px fantasy ;
+				}
+
+footer{  padding:6px;
+  margin-top:15px;
+  color:#black;
+  font: normal 15px normal;
+  background-color:#fefefe;
+  border-top: .5px grey solid;
+  border-bottom: .5px grey solid;
+  min-height: 50px;
+  position: fixed; 
+  width:100vw;
+
+				}
+					footer > p{
+								  text-align : center ;
+								}
+#footer{margin-bottom: 0;
+				height :60%;
+				line-height :25px;
+				}
+
+#new-account{font :italic 15px fantasy;
+margin-top:15px; 
+color:grey;
+				}
+				
+#sign-up{
+				font: bold 15px normal;
+				color: #17bbff;
+				
+				}	
+				
+#toggle{
+				  position: relative; 
+				  top:-18px;
+				  
+				  left:75%;
+				  transform: translateY(-50%);
+				  width:30px;
+				  height:30px;
+				  background: url(image/show.jpeg);
+				  background-size:30px;
+				  background-repeat: no-repeat; 
+				  cursor:pointer;
+				  color:black;
+				  border-radius:  80%;
+				}
+				
+#toggle.show{
+				background: url(image/hide.jpeg);
+				  background-size:cover;
+				  cursor:pointer;
+				}
+				
+.menu{background :teal ;
+				 left: 90px;
+			position :	relative;
+			background-image : url('arrow.png');
+			background-repeat: no-repeat ;
+				background-size:15px 15px;
+				height :15px;
+				width: 15px;
+			border :none;
+				}
+
