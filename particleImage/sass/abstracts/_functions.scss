@@ -1,0 +1,8 @@
+
+// Themeing Function
+@function t($key) {
+    @return map-get($theme-map, $key);
+}
+// @function themed($key) {
+//     @return map-get($theme-map, $key);
+// }
