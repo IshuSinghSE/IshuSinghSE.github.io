@@ -20,6 +20,7 @@
 
 @import 'components/slider';
 @import 'components/blob';
+@import 'components/loader';
 // @import 'components/buttons';
 // @import 'components/carousel';
 
@@ -160,6 +161,8 @@ body{
                     }
                 }
         }
+
+
     }
 
     .controls{

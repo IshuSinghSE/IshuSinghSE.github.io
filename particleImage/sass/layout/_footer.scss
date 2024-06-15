@@ -7,7 +7,7 @@ footer{
     left: 0;
     transform: translateY(100%);
     height: 56px;
-    width: 100%;
+    width: 100vw;
     @include themify($themes){
         background-color: t('bgColor');
         color: t('borderShadow');
