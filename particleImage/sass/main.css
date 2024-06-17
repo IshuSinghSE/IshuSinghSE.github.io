@@ -853,10 +853,17 @@ body {
   .main .canvas {
     padding-inline: 20px;
   }
+  .main .canvas #canvas {
+    min-width: 380px;
+    min-height: 380px;
+  }
   .details {
     padding-inline: 1.5rem;
     padding-top: 0rem;
     margin-top: 3rem;
+  }
+  footer {
+    min-width: 400px;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
